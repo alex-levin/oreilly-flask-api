@@ -1,3 +1,6 @@
+https://learning.oreilly.com/videos/building-web-apis/9781491912393
+https://github.com/miguelgrinberg/oreilly-flask-apis-video
+
 http GET http://localhost:5000/customers/
 http POST http://localhost:5000/customers/ name=John
 http GET http://localhost:5000/customers/1
