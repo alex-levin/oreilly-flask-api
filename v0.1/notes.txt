@@ -1,0 +1,4 @@
+python -m venv venv
+source venv/Scripts/activate
+pip install flask Flask-HTTPAuth Flask-SQLAlchemy coverage httpie python-dateutil requests six
+pip freeze > requirements.txt
