@@ -1,0 +1,17 @@
+http GET http://localhost:5000/customers/
+http POST http://localhost:5000/customers/ name=John
+http GET http://localhost:5000/customers/1
+http GET http://localhost:5000/customers/1/orders/
+http POST http://localhost:5000/customers/1/orders/ date=2014-01-01T00:00:00Z
+http GET http://localhost:5000/orders/1
+http GET http://localhost:5000/orders/1/items/
+http POST http://localhost:5000/products/ name=candy
+http GET http://localhost:5000/products/1
+http POST http://localhost:5000/orders/1/items/ quantity=3 product_url=http://localhost:5000/products/1
+http GET http://localhost:5000/orders/1/items/
+http PUT http://localhost:5000/customers/1 name="John Smith"
+http GET http://localhost:5000/customers/1
+http DELETE http://localhost:5000/items/1
+http GET http://localhost:5000/orders/1/items/
+
+
